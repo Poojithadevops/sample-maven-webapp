@@ -11,7 +11,7 @@ public class HelloServlet extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp)
             throws ServletException, IOException {
         resp.setContentType("text/html");
-        resp.getWriter().write("<h1>Hello from Maven Webapp!</h1>");
+        resp.getWriter().write("<h1>Hello from Tomcat Webapp!</h1>");
     }
 }
 
